@@ -1,6 +1,6 @@
 require 'sinatra'
 
-set :static, "/public/index.html"
+set :public_folder, "/public"
 
 get '/' do
   "Hello, world!!!! Welcome here"
